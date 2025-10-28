@@ -5,7 +5,7 @@ import StarBtn from '../sub/StarBtn.jsx';
 const About = () => {
   return (
     <article className="w-full flex flex-col items-center gap-10 p-10 pt-[130px]">
-      <div className='image-wrapper'><img src="src\assets\IMG_2025.webp" alt="" /></div>
+      <div className='image-wrapper'><img src="assets\IMG_2025.webp" alt="" /></div>
       <div className="w-full max-w-[800px] text-center">
         <h1 className="text-4xl font-bold">
           <GradientText>Hello👋</GradientText>

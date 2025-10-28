@@ -12,7 +12,7 @@ const NavBar = ({ RESUME }) => {
       <div className="w-full h-20 bg-black text-white fixed top-0 z-40 shadow-black/70 shadow-2xl flex justify-between items-center p-6">
         <div className="flex items-center gap-2 text-lg font-bold">
           <img
-            src="src/assets/IMG_20251007_210104_244.webp"
+            src="assets/IMG_20251007_210104_244.webp"
             alt="Profile"
             className="rounded-full w-10 h-10"
           />
