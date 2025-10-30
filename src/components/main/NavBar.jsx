@@ -21,7 +21,7 @@ const NavBar = ({ RESUME }) => {
         {/* On medium+ devices show links + button inline */}
         <div className="hidden md:flex items-center gap-1 text-lg font-semibold">
           <ul className="flex gap-10 mr-10 cursor-pointer">
-            <li><a className='hover:text-amber-300' href="about">About</a></li>
+            <li><a className='hover:text-amber-300' href="#about">About</a></li>
             <li><a className='hover:text-amber-300' href="#skill">Skills</a></li>
             <li><a className='hover:text-amber-300' href="#port">Portfolio</a></li>
             <li><a className='hover:text-amber-300' href="#contact">Contact</a></li>
