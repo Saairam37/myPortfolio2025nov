@@ -239,3 +239,6 @@
   top: 5%; left: 60%; width:4px; filter: drop-shadow(0 0 8px #fffdef); z-index:2;
 }
 
+.fil0 {
+  fill: #ffea00;
+}
