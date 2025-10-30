@@ -1,10 +1,10 @@
 import React from 'react'
-import Mailer from '../sub/Mailer'
 import GradientText from '../sub/GradientText'
+import Mailer from '../sub/Mailer'
 
 export const Contact = () => {
   return (
-    <div className="bg-black py-24 text-white w-full">
+    <div className="bg-black py-20 text-white w-full">
   <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
     
     <div className="space-y-4">
@@ -14,9 +14,9 @@ export const Contact = () => {
       <h3 className="text-xl font-semibold text-amber-300">Contact Info</h3>
       
       <p className="text-gray-300">
-        📍 Madurai, Tamil Nadu, India<br />
         ✉️ saairam185@gmail.com<br />
-        📞 +91 63854 55836
+        📞 +91 63854 55836<br />
+        📍 Madurai, Tamil Nadu, India
       </p>
       <div className="flex space-x-4 mt-4">
         {/* Replace these with your social links/icons */}
@@ -31,7 +31,7 @@ export const Contact = () => {
         </a>
       </div>
       <p className="text-gray-400">
-        I’m currently open for new projects and collaborations. Feel free to drop a message—I'll get back to you as soon as possible.
+        I’m currently open for new projects and collaborations. Feel free to drop a message — I'll get back to you as soon as possible.
       </p>
     </div>
     <div>

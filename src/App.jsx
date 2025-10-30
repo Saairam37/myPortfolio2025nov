@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast'
 import './App.css'
 import About from './components/main/About'
 import { Contact } from './components/main/Contact'
@@ -18,6 +19,7 @@ function App() {
       <Portfolio/>
       <hr id='contact' className="mt-10 w-[70%] mb-10 border-t border-gray-500" />
       <Contact/>
+      <Toaster position="top-center" />
     </div>
   )
 }

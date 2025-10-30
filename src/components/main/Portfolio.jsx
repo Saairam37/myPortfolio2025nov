@@ -15,7 +15,8 @@ const Portfolio = () => {
         "Projects Streamify-Chat IMG_0599.PNG"
       ],
       Description:
-        "Developed a chatting platform with video call features, using GetStream supports for handling calls and messages. User details and everything are stored in the backend using MongoDB and Node.js."
+        "Developed a chatting platform with video call features, using GetStream supports for handling calls and messages. User details and everything are stored in the backend using MongoDB and Node.js.",
+        deployLink: "https://streamify-chat-by-saairam.onrender.com/login"
     },
     {
       Name: "Netflix-Clone",
@@ -34,7 +35,8 @@ const Portfolio = () => {
         "Projects Netflix-Clone IMG_0612.PNG"
       ],
       Description:
-        "Developed a Netflix clone using ReactJS for frontend with TMDB API for fetching movie data, and built APIs with MongoDB for storing user data. Implemented features like user authentication, movie search, search history and responsive design."
+        "Developed a Netflix clone using ReactJS for frontend with TMDB API for fetching movie data, and built APIs with MongoDB for storing user data. Implemented features like user authentication, movie search, search history and responsive design.",
+        deployLink: "https://netflix-clone-m4ka.onrender.com/"
     },
     {
       Name: "E-Commerce",
@@ -56,7 +58,8 @@ const Portfolio = () => {
         "Projects E-Commerce IMG_0630.PNG"
       ],
       Description:
-        "Developed a full-stack shopping cart website using React and integrating the payment gateway. User details, product details, orders and everything are stored in the backend using MongoDB and Node.js."
+        "Developed a full-stack shopping cart website using React and integrating the payment gateway. User details, product details, orders and everything are stored in the backend using MongoDB and Node.js.",
+        deployLink: "https://e-commerce-website-by-saairam.netlify.app/"
     }
   ];
 

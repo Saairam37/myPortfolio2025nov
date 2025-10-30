@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GradientText from './GradientText';
+import StarBtn from './StarBtn';
 
 export default function ImageSlider({ data }) {
   const [current, setCurrent] = useState(0);
@@ -23,12 +24,13 @@ export default function ImageSlider({ data }) {
 
   return (
     <div className="flex flex-col justify-center items-center mx-auto w-full px-4">
+      <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-4">
       <GradientText>
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl mb-4">
+        
           {data.Name}
-        </h1>
+        
       </GradientText>
-
+      </h1>
       <div className="relative w-full max-w-xl overflow-hidden rounded-lg shadow-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out"
@@ -60,7 +62,9 @@ export default function ImageSlider({ data }) {
           ❯
         </button>
       </div>
-
+          <div className='mt-3'>
+            <a href={data.deployLink}><StarBtn title="Live Demo" /></a>
+          </div>
       <p className="text-base sm:text-lg md:text-xl mt-5 max-w-screen-md text-center">
         {data.Description}
       </p>
