@@ -21,12 +21,12 @@ const NavBar = ({ RESUME }) => {
         {/* On medium+ devices show links + button inline */}
         <div className="hidden md:flex items-center gap-1 text-lg font-semibold">
           <ul className="flex gap-10 mr-10 cursor-pointer">
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a className='hover:text-amber-300' href="about">About</a></li>
+            <li><a className='hover:text-amber-300' href="#skill">Skills</a></li>
+            <li><a className='hover:text-amber-300' href="#port">Portfolio</a></li>
+            <li><a className='hover:text-amber-300' href="#contact">Contact</a></li>
           </ul>
-          <StarBtn title="Resume" onClick={() => window.open(RESUME)} />
+          <StarBtn title="Resume" />
         </div>
       </div>
 
@@ -51,10 +51,10 @@ const NavBar = ({ RESUME }) => {
       {menuOpen && (
         <div className="md:hidden fixed h-full right-0 bg-violet-900/80 text-white z-25 flex flex-col items-center justify-center space-y-8 text-lg font-semibold pt-20 w-min px-5">
           <ul className="space-y-6 text-center">
-            <li onClick={() => setMenuOpen(false)}>About</li>
-            <li onClick={() => setMenuOpen(false)}>Skills</li>
-            <li onClick={() => setMenuOpen(false)}>Projects</li>
-            <li onClick={() => setMenuOpen(false)}>Contact</li>
+            <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#about'>About</a></li>
+            <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#skill'>Skills</a></li>
+            <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#port'>Portfolio</a></li>
+            <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#contact'>Contact</a></li>
           </ul>
           <StarBtn
             title="Resume"

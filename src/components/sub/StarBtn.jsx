@@ -1,8 +1,8 @@
 import React from 'react';
 
-const StarBtn = ({ title, onClick }) => {
+const StarBtn = ({ title }) => {
   return (
-    <button onClick={onClick} className="resume-button">
+    <button className="resume-button">
       {title}
       <div className="star-1">
         <svg

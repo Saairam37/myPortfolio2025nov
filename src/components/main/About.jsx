@@ -15,7 +15,7 @@ const About = () => {
         </p>
       </div>
       <div className="w-full max-w-[800px] flex justify-center">
-        <StarBtn title="Contact" onClick={() => window.open(RESUME)} />
+        <a href="#contact"><StarBtn title="Contact" /></a>
       </div>
     </article>
   );
