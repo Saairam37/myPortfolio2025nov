@@ -26,10 +26,12 @@ const NavBar = ({ RESUME }) => {
             <li><a className='hover:text-amber-300' href="#port">Portfolio</a></li>
             <li><a className='hover:text-amber-300' href="#contact">Contact</a></li>
           </ul>
-          <a href="https://drive.google.com/file/d/1WW0w5QAfAc_w05AfbbrAXQzblStps6Aw/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1WW0w5QAfAc_w05AfbbrAXQzblStps6Aw/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer">
             <StarBtn
-            title="Resume"
-          />
+              title="Resume"
+            />
           </a>
         </div>
       </div>
@@ -60,10 +62,12 @@ const NavBar = ({ RESUME }) => {
             <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#port'>Portfolio</a></li>
             <li onClick={() => setMenuOpen(false)}><a className='hover:text-amber-300' href='#contact'>Contact</a></li>
           </ul>
-          <a href="https://drive.google.com/file/d/1WW0w5QAfAc_w05AfbbrAXQzblStps6Aw/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1WW0w5QAfAc_w05AfbbrAXQzblStps6Aw/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer">
             <StarBtn
-            title="Resume"
-          />
+              title="Resume"
+            />
           </a>
         </div>
       )}

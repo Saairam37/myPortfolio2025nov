@@ -20,12 +20,12 @@ export const Contact = () => {
       </p>
       <div className="flex space-x-4 mt-4">
         {/* Replace these with your social links/icons */}
-        <a href="https://linkedin.com/in/saairam-r-p-454a55353" className="text-gray-400 hover:text-white transition">
+        <a href="https://linkedin.com/in/saairam-r-p-454a55353" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
           <span className="sr-only">LinkedIn</span>
             <img src="assets\linkedin.png"  className="w-10 h-10" alt="" />
           
         </a>
-        <a href="https://github.com/Saairam37" className="text-gray-400 hover:text-white transition">
+        <a href="https://github.com/Saairam37" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
           <span className="sr-only">GitHub</span>
           <img src="assets\githubb.png"  className="w-10 h-10" alt="" />
         </a>

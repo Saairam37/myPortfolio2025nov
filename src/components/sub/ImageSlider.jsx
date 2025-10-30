@@ -63,7 +63,7 @@ export default function ImageSlider({ data }) {
         </button>
       </div>
           <div className='mt-3'>
-            <a href={data.deployLink}><StarBtn title="Live Demo" /></a>
+            <a href={data.deployLink} target="_blank" rel="noopener noreferrer"><StarBtn title="Live Demo" /></a>
           </div>
       <p className="text-base sm:text-lg md:text-xl mt-5 max-w-screen-md text-center">
         {data.Description}
